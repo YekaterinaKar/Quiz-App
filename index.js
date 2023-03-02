@@ -20,3 +20,6 @@ bookmark.addEventListener("click", () => {
         bookmark.setAttribute("src", "./images/bookmark.png");
     }
 });
+
+const myForm = document.querySelector("#my-form");
+const submitButton = document.querySelector("#submit-button");
