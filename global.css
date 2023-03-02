@@ -47,6 +47,7 @@ h1 {
     position: absolute;
     right: 1.5rem;
     top: -0.8rem;
+    height: 30px;
 }
 
 .card__icon {
