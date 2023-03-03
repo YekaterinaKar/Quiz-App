@@ -1,5 +1,5 @@
 const showButton = document.querySelector("#first-show");
-const answer = document.querySelector("#answer");
+const answer = document.querySelector("#yourAnswer");
 
 showButton.addEventListener("click", () => {
     if (showButton.textContent === "Show Answer") {
