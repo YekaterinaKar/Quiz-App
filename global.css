@@ -105,3 +105,10 @@ fieldset {
 
 .answer {
 }
+
+.outp {
+    background-color: rgb(241, 143, 184);
+    text-align: center;
+    margin: 15px 15px;
+    border-radius: 20px;
+}
