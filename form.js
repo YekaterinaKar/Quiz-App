@@ -29,31 +29,27 @@ form.addEventListener("submit", (event) => {
     }
 });
 
-/*
+const first = document.querySelector("#yourQuestion");
+const second = document.querySelector("#yourAnswer");
+const amountLeft = document.querySelector('[data-js="amountLeft"]');
+const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
+const maxLength = first.getAttribute("maxlength");
+const maxLength2 = second.getAttribute("maxlength");
+
 const updateAmountLeft = (value) => {
     amountLeft.innerText = value;
 };
 
 updateAmountLeft(maxLength);
-
-frst.addEventListener("input", () => {
-    updateAmountLeft(maxLength - frst.value.length);
+first.addEventListener("input", () => {
+    updateAmountLeft(maxLength - first.value.length);
 });
 
-/*
-const maxLength = questionElement.getAttribute("maxlength");
-const questionElement = document.querySelector('[data-js="personalMessage"]');
-const amountLeft = document.querySelector('[data-js="amountLeft"]');
-const maxLength = questionElement.getAttribute("maxlength");
-
-const updateAmountLeft = (value) => {
-  amountLeft.innerText = value;
+const updateAmountLeft2 = (value) => {
+    amountLeft2.innerText = value;
 };
 
-updateAmountLeft(maxLength);
-
-questionElement.addEventListener("input", () => {
-  updateAmountLeft(maxLength - questionElement.value.length);
+updateAmountLeft2(maxLength);
+second.addEventListener("input", () => {
+    updateAmountLeft2(maxLength2 - second.value.length);
 });
-
-*/
