@@ -19,14 +19,24 @@
                     id="yourQuestion"
                     cols="5"
                     rows="3"
+                    maxlength="200"
                 ></textarea>
+                <small class="form__character-count"
+                    >(<span data-js="amountLeft"></span> characters left)</small
+                >
+
                 <label for="yourAnswer">Your answer:</label>
                 <textarea
                     name="yourAnswer"
                     id="yourAnswer"
                     cols="5"
                     rows="3"
+                    maxlength="200"
                 ></textarea>
+                <small class="form__character-count"
+                    >(<span data-js="amountLeft"></span> characters left)</small
+                >
+
                 <label for="tag">Tag:</label>
                 <input type="text" name="tag" id="tag" />
             </fieldset>
