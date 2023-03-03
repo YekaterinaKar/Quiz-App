@@ -11,17 +11,30 @@
         <header>
             <h1>Quiz App</h1>
         </header>
-        <form id="my-form">
+        <form name="form" id="form" data-js="form">
             <fieldset>
-                <label for="your-question">Your question:</label>
-                <textarea name="your-question" id="" cols="" rows=""></textarea>
-                <label for="your-answer">Your answer:</label>
-                <textarea name="your-answer" id="" cols="" rows=""></textarea>
+                <label for="yourQuestion">Your question:</label>
+                <textarea
+                    name="yourQuestion"
+                    id="yourQuestion"
+                    cols="5"
+                    rows="3"
+                ></textarea>
+                <label for="yourAnswer">Your answer:</label>
+                <textarea
+                    name="yourAnswer"
+                    id="yourAnswer"
+                    cols="5"
+                    rows="3"
+                ></textarea>
                 <label for="tag">Tag:</label>
-                <input type="text" />
+                <input type="text" name="tag" id="tag" />
             </fieldset>
             <button type="submit" id="submit-button">Submit</button>
         </form>
+        <p class="outp" id="outp"></p>
+        <p class="outp" id="outp2"></p>
+        <p class="outp" id="outp3"></p>
 
         <footer>
             <nav class="nav-bar">
@@ -54,5 +67,5 @@
             </nav>
         </footer>
     </body>
-    <script src="index.js"></script>
+    <script src="form.js"></script>
 </html>
