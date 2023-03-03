@@ -28,3 +28,32 @@ form.addEventListener("submit", (event) => {
         outp3.textContent = "";
     }
 });
+
+/*
+const updateAmountLeft = (value) => {
+    amountLeft.innerText = value;
+};
+
+updateAmountLeft(maxLength);
+
+frst.addEventListener("input", () => {
+    updateAmountLeft(maxLength - frst.value.length);
+});
+
+/*
+const maxLength = questionElement.getAttribute("maxlength");
+const questionElement = document.querySelector('[data-js="personalMessage"]');
+const amountLeft = document.querySelector('[data-js="amountLeft"]');
+const maxLength = questionElement.getAttribute("maxlength");
+
+const updateAmountLeft = (value) => {
+  amountLeft.innerText = value;
+};
+
+updateAmountLeft(maxLength);
+
+questionElement.addEventListener("input", () => {
+  updateAmountLeft(maxLength - questionElement.value.length);
+});
+
+*/
