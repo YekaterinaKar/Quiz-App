@@ -1,6 +1,8 @@
 const showButton = document.querySelector("#first-show");
 const answer = document.querySelector("#yourAnswer");
 
+// Button togle and show answer
+
 showButton.addEventListener("click", () => {
     if (showButton.textContent === "Show Answer") {
         showButton.textContent = "Hide Answer";
@@ -11,6 +13,7 @@ showButton.addEventListener("click", () => {
     }
 });
 
+//Bookmark togle
 const bookmark = document.querySelector("#bookmarkclick");
 
 bookmark.addEventListener("click", () => {

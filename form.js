@@ -5,6 +5,7 @@ form.addEventListener("submit", (event) => {
     console.log(form);
 });
 
+// Input field - output
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -29,6 +30,7 @@ form.addEventListener("submit", (event) => {
     }
 });
 
+// Charecter counters
 const first = document.querySelector("#yourQuestion");
 const second = document.querySelector("#yourAnswer");
 const amountLeft = document.querySelector('[data-js="amountLeft"]');
